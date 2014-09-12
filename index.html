@@ -3,6 +3,17 @@
 <head>
 	<title>Fredrik Wessberg CV</title>
 	<style type="text/css">
+		/* Left to do:  Change into a nice font
+						Fix the links within the table <- V
+						Fix the table size for years
+						Put a border on one side with the contact information + picture
+						Fix the padding on the Q&A side
+						caption on career side
+						Ö-letter on career side.
+						Check for alternative translation for "elprogrammet"
+		*/ 
+
+
 		html, body, section {
 			height:95%;
 			padding:0;
@@ -15,8 +26,14 @@
 			position: relative;
 			margin-right:0%;
 			margin-left:1%;
-			top:25%;
+			top:1%;
 			text-align: center;
+		}
+
+		img {
+			height:300px;
+			width:200px;
+			-webkit-filter:grayscale(100%);
 		}
 
 		nav {
@@ -24,7 +41,7 @@
 			height: 20%;
 			margin-left:38%;
 			margin-right:38%;
-			top:1px;
+			bottom:1px;
 		}
 
 		nav li {
@@ -58,13 +75,20 @@
 			overflow: hidden;
 			display: block;
 			position: relative;
-			top:25%;
+			top:1%;
 			margin-left: 30%;
 			margin-right: 35%;
-			height:40%;
+			height:60%;
 			width:40%;
 			padding:20px;
 			border:solid 5px white;
+		}
+
+		.information a:link, a:visited {
+			text-decoration: none;
+			border-bottom: 2px dotted;
+			color:white;
+
 		}
 
 		#aboutme {
@@ -79,9 +103,7 @@
 		}
 
 		#qa {
-			margin-bottom:250px;
-			text-align: justify;
-		
+			margin-bottom:250px;		
 		}
 	</style>
 </head>
@@ -106,11 +128,13 @@
 					I'm 29 years old, living in Stockholm, Sweden. I see myself as a pragmatic, self-motivated individual with an open mind and an easy goin attitude. Together with high ambitions and a high level of service mind I have a good ability for picking things up quickly and thoroughly dedicate myself to whichever challenge I'm put too with the right support. I put much weight in trust and social relations. Constructive feedback is something I find important in a working environment wether it is to receive or, in a humble way, give it to someone else.<br/>
 					Historically I have been working in a range of IT related fields from a PC-technician, ensuring erasure on hardware, to my previously commitment as a security consultant with information security in focus. I have years of experience working within teams in different environments on different levels. I first became interested in IT at the age of 11 which evolved primarily around network and security. Over the years I've found a greater interest for programming and I look forward to evolve my creative ability with the course "<strong>System Development in Java</strong>" I'm currently progressing.
 				</p>
+				<img src="jpeg/fw.jpg" alt="Picture of Fredrik"/>
 			</div>
 
 			<div class="extended-info" id="career">
 				<br/>
 				<table>
+					<caption>Earlier Jobs</caption>
 					<tbody>
 						<tr>
 							<th>Title</th>
@@ -132,23 +156,27 @@
 							<td>2003-2006</td>
 							<td>Secure erasure and reconditioning of earlier used computer equipment. Worked with various ERA-products such as <a href="www.ibas.se">IBAS</a> and <a href="www.blancco.com">Blancco.</a></td>
 						</tr>
-						<tr>
+					</tbody>
+				</table>
+				<br/>
+				<table>
+					<caption>Educations</caption>
+					<tr>
 							<td>Tyresö Gymnasium</td>
 							<td>2001-2003</td>
 							<td>Electrical program with Data/IT-orientation</td>
-						</tr>
-					</tbody>
+					</tr>
 				</table>
 			</div>
 
 			<div class="extended-info" id="qa">
-				<heading>
-					<h3>Where do you see yourselves proffesionally in 2 years?</h3>
-					<p>
-						I hope to see, as a full-time developer, in an open working environment being a member of a productive developer-team having the possibilities of doing both back-end infrastructure applications and front-end applications with specialization on mobile platforms. At the same time I put much weight in having the the oppurtunity to explore my creativeness within different areas of development assignments.
-					</p>
-				</heading>
+				<br/>
+				<h3>Where do you see yourselves proffesionally in 2 years?</h3>
+				<p>
+					I hope to see, as a full-time developer, in an open working environment being a member of a productive developer-team having the possibilities of doing both back-end infrastructure applications and front-end applications with specialization on mobile platforms. At the same time I put much weight in having the the opportunity to explore my creativeness within different areas of development assignments.
+				</p>
 			</div>
+
 		</div>
 	</section>
 
