@@ -4,7 +4,7 @@
 	<title>Fredrik Wessberg CV</title>
 	<style type="text/css">
 		html, body, section {
-			height:100%;
+			height:95%;
 			padding:0;
 			margin:0;
 			background-color: hsl(210, 46%, 40%);
@@ -15,7 +15,7 @@
 			position: relative;
 			margin-right:0%;
 			margin-left:1%;
-			top:20%;
+			top:25%;
 			text-align: center;
 		}
 
@@ -45,10 +45,11 @@
 			display:block;
 			width: 100%;
 			height: 100%;
-			color:hsl;
+			color:white;
 		}
 
-		nav li:hover {
+		nav li:hover {					/* Hover MUST come after a link and visited */
+			color:white;
 			text-transform: uppercase;
 			border:solid 5px white;
 		}
@@ -57,7 +58,7 @@
 			overflow: hidden;
 			display: block;
 			position: relative;
-			top:20%;
+			top:25%;
 			margin-left: 30%;
 			margin-right: 35%;
 			height:40%;
@@ -72,11 +73,16 @@
 		}
 
 		#career {
-			margin-bottom: 250px;
+			margin-bottom: 350px;
 			text-align: left;
-			table-layout: 
+			table-layout: fixed; 
 		}
 
+		#qa {
+			margin-bottom:250px;
+			text-align: justify;
+		
+		}
 	</style>
 </head>
 
@@ -97,13 +103,13 @@
 		<div class="information">
 			<div class="extended-info" id="aboutme">
 				<p><br/>
-					I'm 29 years old, living in Stockholm, Sweden. I see myself as a pragmatic, self-motivated individual with an open mind and an easy goin attitude. Together with high ambitions and a high level of service mind I have a good ability for picking things up quickly and thoroughly dedicate myself to whichever challenge I'm put too wiith the right support. I put much weight in trust and social relations. Constructive feedback is something I find important in a working environment wether it is to receive or, in a humble way, give it to someone else.<br/>
+					I'm 29 years old, living in Stockholm, Sweden. I see myself as a pragmatic, self-motivated individual with an open mind and an easy goin attitude. Together with high ambitions and a high level of service mind I have a good ability for picking things up quickly and thoroughly dedicate myself to whichever challenge I'm put too with the right support. I put much weight in trust and social relations. Constructive feedback is something I find important in a working environment wether it is to receive or, in a humble way, give it to someone else.<br/>
 					Historically I have been working in a range of IT related fields from a PC-technician, ensuring erasure on hardware, to my previously commitment as a security consultant with information security in focus. I have years of experience working within teams in different environments on different levels. I first became interested in IT at the age of 11 which evolved primarily around network and security. Over the years I've found a greater interest for programming and I look forward to evolve my creative ability with the course "<strong>System Development in Java</strong>" I'm currently progressing.
 				</p>
 			</div>
 
 			<div class="extended-info" id="career">
-				<br>
+				<br/>
 				<table>
 					<tbody>
 						<tr>
@@ -136,10 +142,12 @@
 			</div>
 
 			<div class="extended-info" id="qa">
-				<h3>Where do you see yourselves proffesionally in 2 years?</h3>
-				<p>
-					I hope to see, as a full-time developer, in an open working environment being a member of a developer-team doing back-end infrastructure applications with specialization on mobile platforms. At the same time I put much weight in having the the oppurtunity to explore my creativeness within different areas of development assignments.
-				</p>
+				<heading>
+					<h3>Where do you see yourselves proffesionally in 2 years?</h3>
+					<p>
+						I hope to see, as a full-time developer, in an open working environment being a member of a productive developer-team having the possibilities of doing both back-end infrastructure applications and front-end applications with specialization on mobile platforms. At the same time I put much weight in having the the oppurtunity to explore my creativeness within different areas of development assignments.
+					</p>
+				</heading>
 			</div>
 		</div>
 	</section>
