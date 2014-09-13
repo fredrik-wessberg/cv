@@ -1,0 +1,141 @@
+		/* Left to do:  Put a border on one side with the contact information + picture X
+						Fix the links within the table <- X
+						Change into a nice font X
+						make links open new tab/window X
+						Fix the table size for years X
+						Fix the padding on the Q&A side X
+						caption on career side X
+						Rename class information to information_box X
+						upload to github X
+						Check for alternative translation for "elprogrammet" X
+						Do something about the table, looks aweful. X
+						Correct the long sentence in q&a X
+						Make information box larger, alternative make the picture size %-based (space between jpeg and bottom border) X
+						fix UTF X
+						Ö-letter on career side. (fixed by utf-specification) X
+						Split CSS from html into seperate CSS-file X
+						Validate page on validator.wc3.com X
+						verify page on mac
+						upload to ghpages
+						
+						
+		*/ 
+
+html, body, section {
+			font-family: Helvetica;
+			height:95%;
+			padding:0;
+			margin:0;
+			background-color: hsl(210, 46%, 40%);
+			color:white;
+		}
+
+		header {
+			position: relative;
+			margin-right:0%;
+			margin-left:1%;
+			top:1%;
+			text-align: center;
+		}
+		h1 {
+			text-align: center;
+		}
+
+		img {
+			height:17%;
+			width:17%;
+			float:left;
+			-webkit-filter:grayscale(100%);
+		}
+
+		nav {
+			position: absolute;
+			height: 20%;
+			margin-left:38%;
+			margin-right:38%;
+			bottom:1px;
+		}
+
+		nav li {
+			line-height: 120px;
+			display:inline-block;
+			width: 120px;
+			height: 120px;
+			text-align: center;
+			border:solid 5px black;
+			border-radius:100%;
+			background-color: hsl(114, 22%, 50%);
+			font-size: 22px;
+			
+		}
+
+		nav a:link,nav a:visited {
+			text-decoration: none;
+			display:block;
+			width: 100%;
+			height: 100%;
+			color:white;
+		}
+
+		nav li:hover {					/* Hover must come after a link and visited */
+			color:white;
+			text-transform: uppercase;
+			border:solid 5px white;
+		}
+
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+
+		.date {
+			white-space:nowrap;
+		}
+
+		.job_description {
+			width: 100%;
+		}
+		
+		.information_box {
+			overflow: hidden;
+			display: block;
+			position: relative;
+			top:1%;
+			margin-left: 30%;
+			margin-right: 35%;
+			height:70%;
+			width:40%;
+			padding:20px;
+			border:solid 5px white;
+		}
+
+		.information_box a:link, a:visited {
+			text-decoration: none;
+			border-bottom: 2px dotted;
+			color:white;
+
+		}
+
+		#aboutme {
+			margin-bottom: 350px;
+			text-align: justify;
+		}
+
+		#career {
+			clear:both;
+			margin-bottom: 350px;
+			text-align: left;
+			table-layout: fixed; 
+		}
+
+		#qa {
+			margin-bottom: 320px;		
+		}
+
+		#details {
+			float:left;
+			text-align: left;
+			padding-top:150px;
+			padding-left:100px;
+						
+		}
