@@ -107,19 +107,19 @@ html, body, section {
 		}
 
 		#aboutme {
-			margin-bottom: 350px;
+			margin-bottom: 450px;
 			text-align: justify;
 		}
 
 		#career {
 			clear:both;
-			margin-bottom: 350px;
+			margin-bottom: 450px;
 			text-align: left;
 			table-layout: fixed; 
 		}
 
 		#qa {
-			margin-bottom: 320px;		
+			margin-bottom: 450px;		
 		}
 
 		#contact-info {
