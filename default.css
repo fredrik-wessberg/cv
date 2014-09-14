@@ -30,7 +30,11 @@ html, body, section {
 			padding-top:10px;
 			float:left;
 			-webkit-filter:grayscale(100%);
+<<<<<<< HEAD
 			-moz-filter:grayscale(100%);
+=======
+			filter:grayscale(100%);
+>>>>>>> gh-pages
 		}
 
 		table, th, td {
@@ -108,19 +112,31 @@ html, body, section {
 		}
 
 		#aboutme {
+<<<<<<< HEAD
 			margin-bottom: 450px;
+=======
+			margin-bottom: 600px;
+>>>>>>> gh-pages
 			text-align: justify;
 		}
 
 		#career {
 			clear:both;
+<<<<<<< HEAD
 			margin-bottom: 450px;
+=======
+			margin-bottom: 600px;
+>>>>>>> gh-pages
 			text-align: left;
 			table-layout: fixed; 
 		}
 
 		#qa {
+<<<<<<< HEAD
 			margin-bottom: 450px;		
+=======
+			margin-bottom: 500px;		
+>>>>>>> gh-pages
 		}
 
 		#contact-info {
