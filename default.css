@@ -114,14 +114,14 @@ html, body, section {
 		}
 
 		#contact-info {
-			float:left;
 			text-align: left;
 			padding-top:20px;
 		}
 
 		#details {
+			float:left;
 			position:relative;
-			margin-top:220px;
+			margin-top:250px;
 		}
 
 		#my-pic {
