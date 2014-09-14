@@ -1,25 +1,8 @@
-		/* Left to do:  Put a border on one side with the contact information + picture X
-						Fix the links within the table <- X
-						Change into a nice font X
-						make links open new tab/window X
-						Fix the table size for years X
-						Fix the padding on the Q&A side X
-						caption on career side X
-						Rename class information to information_box X
-						upload to github X
-						Check for alternative translation for "elprogrammet" X
-						Do something about the table, looks aweful. X
-						Correct the long sentence in q&a X
-						Make information box larger, alternative make the picture size %-based (space between jpeg and bottom border) X
-						fix UTF X
-						Ö-letter on career side. (fixed by utf-specification) X
-						Split CSS from html into seperate CSS-file X
-						Validate page on validator.wc3.com X
-						verify page on mac - looks terrible must fix!
-						upload to ghpages
-						
-						
-		*/ 
+/*  I've struggled some with the positioning of elements, especially in different resolutions, but I hope and think 
+	this looks ok on most of the res.
+	I've also seperated the css into different segments - tags, classes and ids.
+*/
+
 
 html, body, section {
 			font-family: Helvetica;
@@ -49,11 +32,16 @@ html, body, section {
 			-webkit-filter:grayscale(100%);
 		}
 
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+
 		nav {
 			position: absolute;
 			height: 4%;
-			margin-left:28%;
-			margin-right:34%; 
+			margin-left:30%;
+			margin-right:400px; 
 			bottom:125px;
 		}
 
@@ -65,7 +53,7 @@ html, body, section {
 			text-align: center;
 			border:solid 5px black;
 			border-radius:100%;
-			background-color: hsl(114, 22%, 50%);
+			background-color: hsl(114, 22%, 60%);
 			font-size: 18px;
 			
 		}
@@ -82,11 +70,6 @@ html, body, section {
 			color:white;
 			text-transform: uppercase;
 			border:solid 5px white;
-		}
-
-		table, th, td {
-			border: 1px solid black;
-			border-collapse: collapse;
 		}
 
 		.date {
