@@ -29,8 +29,6 @@ html, body, section {
 			width:30%;
 			padding-top:10px;
 			float:left;
-			-webkit-filter:grayscale(100%);
-			filter:grayscale(100%);
 		}
 
 		table, th, td {
