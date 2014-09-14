@@ -114,7 +114,17 @@ html, body, section {
 		}
 
 		#contact-info {
-			float:right;
+			float:left;
 			text-align: left;
-			padding-top:40%;
+			padding-top:20px;
 		}
+
+		#details {
+			position:relative;
+			margin-top:220px;
+		}
+
+		#my-pic {
+			clear:both;
+			margin-bottom: 600px;
+		} 
