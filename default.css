@@ -30,6 +30,7 @@ html, body, section {
 			padding-top:10px;
 			float:left;
 			-webkit-filter:grayscale(100%);
+			-moz-filter:grayscale(100%);
 		}
 
 		table, th, td {
@@ -107,19 +108,19 @@ html, body, section {
 		}
 
 		#aboutme {
-			margin-bottom: 450px;
+			margin-bottom: 600px;
 			text-align: justify;
 		}
 
 		#career {
 			clear:both;
-			margin-bottom: 450px;
+			margin-bottom: 600px;
 			text-align: left;
 			table-layout: fixed; 
 		}
 
 		#qa {
-			margin-bottom: 450px;		
+			margin-bottom: 500px;		
 		}
 
 		#contact-info {
