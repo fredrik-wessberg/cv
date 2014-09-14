@@ -30,11 +30,8 @@ html, body, section {
 			padding-top:10px;
 			float:left;
 			-webkit-filter:grayscale(100%);
-<<<<<<< HEAD
 			-moz-filter:grayscale(100%);
-=======
 			filter:grayscale(100%);
->>>>>>> gh-pages
 		}
 
 		table, th, td {
