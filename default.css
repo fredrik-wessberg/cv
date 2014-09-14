@@ -29,12 +29,6 @@ html, body, section {
 			width:30%;
 			padding-top:10px;
 			float:left;
-<<<<<<< HEAD
-			-webkit-filter:grayscale(100%);
-			-moz-filter:grayscale(100%);
-			filter:grayscale(100%);
-=======
->>>>>>> gh-pages
 		}
 
 		table, th, td {
