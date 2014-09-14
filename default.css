@@ -71,14 +71,6 @@ html, body, section {
 			text-transform: uppercase;
 			border:solid 5px white;
 		}
-
-		.date {
-			white-space:nowrap;
-		}
-
-		.job_description {
-			width: 100%;
-		}
 		
 		.information_box {
 			overflow: hidden;
@@ -98,6 +90,14 @@ html, body, section {
 			border-bottom: 2px dotted;
 			color:white;
 
+		}
+
+			.date {
+			white-space:nowrap;
+		}
+
+		.job_description {
+			width: 100%;
 		}
 
 		#details {
