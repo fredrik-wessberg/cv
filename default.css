@@ -5,20 +5,17 @@
 
 html, body, section {
 			font-family: Helvetica;
+			text-align: justify;
 			height:95%;
-			padding:0;
 			margin:0;
 			background-color: hsl(210, 46%, 55%);
 			color:white;
 		}
 
-		header {
-			/*position: relative;
-			margin-right:0%;
-			margin-left:1%; */
-			top:1%;
+		 header {
 			text-align: center;
-		}
+		} 
+
 		h1 {
 			text-align: center;
 		}
@@ -85,7 +82,7 @@ html, body, section {
 
 		.information_box a:link, a:visited {
 			text-decoration: none;
-			border-bottom: 2px dotted;
+			border-bottom: 2px dotted black;
 			color:white;
 
 		}
@@ -99,6 +96,7 @@ html, body, section {
 		}
 
 		#aboutme {
+			margin-top:1px;
 			margin-bottom: 600px;
 			text-align: justify;
 		}
@@ -119,7 +117,3 @@ html, body, section {
 			text-align: left;
 			padding-top:40%;
 		}
-
-		 /*#personal-info {
-			clear:both;
-		} */
