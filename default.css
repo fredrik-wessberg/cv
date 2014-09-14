@@ -13,9 +13,9 @@ html, body, section {
 		}
 
 		header {
-			position: relative;
+			/*position: relative;
 			margin-right:0%;
-			margin-left:1%;
+			margin-left:1%; */
 			top:1%;
 			text-align: center;
 		}
@@ -120,6 +120,6 @@ html, body, section {
 			padding-top:40%;
 		}
 
-		#personal-info {
+		 /*#personal-info {
 			clear:both;
-		}
+		} */
