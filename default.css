@@ -12,7 +12,7 @@ html, body, section {
 			color:white;
 		}
 
-		 header {
+		header {
 			text-align: center;
 		} 
 
@@ -91,7 +91,7 @@ html, body, section {
 			white-space:nowrap;
 		}
 
-		.job_description {
+		.job-description {
 			width: 100%;
 		}
 
