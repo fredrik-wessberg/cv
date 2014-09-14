@@ -29,9 +29,12 @@ html, body, section {
 			width:30%;
 			padding-top:10px;
 			float:left;
+<<<<<<< HEAD
 			-webkit-filter:grayscale(100%);
 			-moz-filter:grayscale(100%);
 			filter:grayscale(100%);
+=======
+>>>>>>> gh-pages
 		}
 
 		table, th, td {
@@ -105,7 +108,7 @@ html, body, section {
 		#details {
 			float:right;
 			text-align: left;
-			padding-top:300px;
+			padding-top:40%;
 		}
 
 		#aboutme {
