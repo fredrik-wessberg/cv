@@ -99,12 +99,6 @@ html, body, section {
 			width: 100%;
 		}
 
-		#details {
-			float:right;
-			text-align: left;
-			padding-top:40%;
-		}
-
 		#aboutme {
 			margin-bottom: 600px;
 			text-align: justify;
@@ -122,5 +116,11 @@ html, body, section {
 		}
 
 		#contact-info {
+			float:right;
+			text-align: left;
+			padding-top:40%;
+		}
+
+		#personal_information {
 			clear:both;
 		}
