@@ -1,6 +1,5 @@
-/*  I've struggled some with the positioning of elements, especially in different resolutions, but I hope and think 
-	this looks ok on most of the res.
-	I've also seperated the css into different segments - tags, classes and ids.
+/*  
+	I've seperated the css into different segments - tags, classes and ids.
 */
 
 
@@ -92,7 +91,7 @@ html, body, section {
 
 		}
 
-			.date {
+		.date {
 			white-space:nowrap;
 		}
 
@@ -119,7 +118,7 @@ html, body, section {
 		}
 
 		#qa {
-			margin-bottom: 500px;		
+			margin-bottom: 600px;		
 		}
 
 		#contact-info {
